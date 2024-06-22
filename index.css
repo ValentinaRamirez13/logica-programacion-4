@@ -1,0 +1,69 @@
+body{
+    background-color: peachpuff;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 80px;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.contenedor{
+    display: flex;
+    align-items: flex-start;  /* Alinea los elementos al inicio verticalmente */
+    gap: 20px; /* Espacio entre la imagen y el input */
+}
+
+.imagen img{
+    width: 100%;
+    margin-left: 80%;
+}
+
+.contenedor-input-boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra el input y el botón */
+    width: 100%;
+    margin-top: 5%;
+}
+
+.contenedor-input-boton input{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 40%;
+    margin-bottom: 20px; /* Espacio entre el input y el botón */
+    font-weight: bolder;
+}
+
+.contenedor-input-boton button{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px; 
+    font-weight: bolder;
+
+
+}
+button:hover {
+    background-color: #7aaee6;
+}
+
+.calcular {
+    background-color: pink;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 3%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 40%;
+    padding: 1%;
+}
